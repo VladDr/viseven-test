@@ -109,29 +109,41 @@ section:nth-of-type(2) figcaption {
     flex-flow: row nowrap;
     justify-content: space-between;
     position: relative;
-    width: 170px;
-    height: 25px;
+    max-width: 170px;
+    width: 100%;
+}
+.reit li {
+    width: 26.63px;
+    height: 25.84px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.reit li:not(.light) {
+    background-image: url("../assets/images/starblack.svg");
+}
+.reit li.light {
+    background-image: url("../assets/images/stargrey.svg");
 }
 
-.reit li{
-    position: relative;
-    width: 25px;
-    height: 25px;
-}
+/*.reit li{*/
+    /*position: relative;*/
+    /*width: 25px;*/
+    /*height: 25px;*/
+/*}*/
 
-.reit li:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25px;
-    height: 25px;
-    background: red;
-}
+/*.reit li:before{*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 25px;*/
+    /*height: 25px;*/
+    /*background: red;*/
+/*}*/
 
-.reit li.light:before{
-    background: grey;
-}
+/*.reit li.light:before{*/
+    /*background: grey;*/
+/*}*/
 
 footer button {
     border-radius: 12px;
