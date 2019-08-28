@@ -125,30 +125,40 @@ section:nth-of-type(2) figcaption {
     background-image: url("../assets/images/stargrey.svg");
 }
 
-/*.reit li{*/
-    /*position: relative;*/
-    /*width: 25px;*/
-    /*height: 25px;*/
-/*}*/
-
-/*.reit li:before{*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 25px;*/
-    /*height: 25px;*/
-    /*background: red;*/
-/*}*/
-
-/*.reit li.light:before{*/
-    /*background: grey;*/
-/*}*/
-
-footer button {
-    border-radius: 12px;
+section:nth-of-type(3) {
+    padding: 90px 0 18px 0;
 }
 
+section:nth-of-type(3) figcaption{
+    padding: 90px 0 111px 0;
+    text-align: center;
+}
 
+footer {
+    padding: 90px 0 111px 0;
+}
+
+footer .cta-button {
+    max-width: 180px;
+    width: 100%;
+    border-radius: 22px;
+    display: inline-block;
+    background-color: #070707;
+    margin-top: 60px;
+    padding: 13px 29px;
+    color: #fff;
+    text-align: center;
+}
+
+ ul{
+    display: flex;
+     margin: 90.21px;
+     flex-flow: row nowrap;
+    justify-content: space-between;
+     59.78px;
+    position: relative;
+     height: 40px;
+    width: 340px;
+}
 
 

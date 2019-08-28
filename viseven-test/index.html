@@ -11,14 +11,14 @@
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
-        <div class="header-title-wrapper">
+        <div id="home" class="header-title-wrapper">
             <h1>Denzel<br>Washington</h1>
             <p>UX | UI designer from Krakozia<br>30 years old</p>
         </div>
@@ -26,13 +26,13 @@
     </header>
     <main>
 
-        <section>
+        <section id="about">
             <h2>About me</h2>
             <p>Hi, I'm Denzel – UX/UI designer from Krakozia.<br>I'm interested in design and everything connected with it.</p>
             <p>I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
             <p>Ready to implement excellent projects<br>with wonderful people.</p>
         </section>
-        <section>
+        <section id="skills">
             <h2>Skills</h2>
             <p>I work in such programs as</p>
             <div class="items-wrapper">
@@ -90,33 +90,31 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="portfolio">
             <h2>Portfolio</h2>
-            <div>
-                <a href="#"><img src="./assets/images/woman.jpg" alt="Trulli" style="width:100%"></a>
-                <a href="#">Online fashion store - Homepage</a>
-            </div>
             <figure>
-                <img src="./assets/images/reebok_web.jpg" alt="Trulli" style="width:100%">
-                <figcaption>Reebok Store - Concept</figcaption>
+                <img src="./assets/images/woman-img.svg" alt="woman-magazine" height="510" width="940">
+                <figcaption><ins>Online fashion store - Homepage</ins></figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/braun_web.jpg" alt="Trulli" style="width:100%">
-                <figcaption>Braun Landing Page - Concept</figcaption>
+                <img src="./assets/images/reebok_web.jpg" alt="reebok" height="510" width="940">
+                <figcaption><ins>Reebok Store - Concept</ins></figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/braun_web.jpg" alt="broun" height="510" width="940">
+                <figcaption><ins>Braun Landing Page - Concept</ins></figcaption>
             </figure>
         </section>
     </main>
-    <footer>
+    <footer id="contacts">
         <h2>Contacts</h2>
-        <p>Want to know more or just chat? You are welcome!</p>
-        <button>
-            Send message
-        </button>
+        <p>Want to know more or just chat?<br> You are welcome!</p>
+        <a class="cta-button">Send message</a>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><img src="./assets/images/logo-link.svg" alt="linkedin" height="38.86" width="39.1"></li>
+            <li><img src="./assets/images/logo-inst.svg" alt="instagram" height="38.86" width="39.1"></li>
+            <li><img src="./assets/images/logo-beh.svg" alt="behance" height="38.86" width="39.1"></li>
+            <li><img src="./assets/images/logo-surf.svg" alt="surface" height="38.86" width="39.1"></li>
         </ul>
     </footer>
 
