@@ -53,7 +53,7 @@ h2 {
 }
 
 h1 {
-    margin-right: 100px;
+    margin-right: 170px;
     font: 700 47px/55px Roboto;
 }
 
@@ -101,7 +101,13 @@ section:nth-of-type(2) .items-wrapper {
 
 section:nth-of-type(2) figcaption {
     margin: 24px 0 40px 0;
+    font-size: 14px;
+    line-height: 16px;
     text-align: center;
+}
+
+section:nth-of-type(2) .item:last-of-type figcaption {
+    margin-bottom: 57px;
 }
 
 .reit {
@@ -112,15 +118,18 @@ section:nth-of-type(2) figcaption {
     max-width: 170px;
     width: 100%;
 }
+
 .reit li {
-    width: 26.63px;
-    height: 25.84px;
+    width: 26px;
+    height: 25px;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .reit li:not(.light) {
     background-image: url("../assets/images/starblack.svg");
 }
+
 .reit li.light {
     background-image: url("../assets/images/stargrey.svg");
 }
@@ -129,15 +138,15 @@ section:nth-of-type(3) {
     padding: 90px 0 18px 0;
 }
 
-section:nth-of-type(3) figcaption{
+section:nth-of-type(3) figcaption,
+footer {
     padding: 90px 0 111px 0;
     text-align: center;
 }
 
-footer {
-    padding: 90px 0 111px 0;
+footer p {
+    line-height: 21px;
 }
-
 footer .cta-button {
     max-width: 180px;
     width: 100%;
@@ -150,15 +159,15 @@ footer .cta-button {
     text-align: center;
 }
 
- ul{
+footer ul {
     display: flex;
-     margin: 90.21px;
-     flex-flow: row nowrap;
+    margin-top: 90px;
+    flex-flow: row nowrap;
     justify-content: space-between;
-     59.78px;
     position: relative;
-     height: 40px;
+    height: 40px;
     width: 340px;
+
 }
 
 
